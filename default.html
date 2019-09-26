@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 360 -->
+    <meta name="360-site-verification" content="76ab277e22e8ad05ed66ec608bb79ba4" />
+    <!-- baidu -->
+    <meta name="baidu-site-verification" content="KB36aOouCE" />
+    <!-- shenma -->
+    <meta name="shenma-site-verification" content="88869ff3b4ee661962fb6bc9b919a7f4_1564148883">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>APPPAY个人免签支付系统</title>
+    <meta name="keywords" content="apppay.xyz,个人免签支付系统,个人支付宝H5拉起支付,H5一键唤起支付宝支付,微信支付,支付宝,免签支付,个人免签支付,网站支付接口,免签支付接口">
+    <meta name="description" content="apppay,个人免签支付系统,个人支付宝H5拉起支付,H5一键唤起支付宝支付,微信支付,支付宝,免签支付,个人免签支付,网站支付接口,免签支付接口">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <script>
+   //360
+  (function(){
+  var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?951bc5617dbbe1a09f655550cebced39":"https://jspassport.ssl.qhimg.com/11.0.1.js?951bc5617dbbe1a09f655550cebced39";
+  document.write('<script src="' + src + '" id="sozz"><\/script>');
+  })();
+  //baudu
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+  </script>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">
+                  <a class="navbar-brand" href="http://apppay.xyz">APPPAY</a>
+                </span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://apppay.xyz">APPPAY</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                   <a href="http://apppay.xyz">首页</a>
+                </li>
+                <li><a target="_blank" style="color: #fff" href="https://github.com/apppay">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <img class="second-slide" src="picture/bg.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>官方接口，成功率100%</h1>
+              <p>资金直接付款到您的个人支付宝账号</p>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+          <img class="third-slide" src="picture/bg.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>助力个人创业实现个人网站接入收付款</h1>
+              <p>无需公司资质免签约，即时到账，个人微信支付宝账号即可收款，不接第三方平台，一次购买终身使用</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row" deep="1">
+        <div class="col-lg-4">
+          <img class="img-circle" src="picture/wechart.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>安全</h2>
+          <p>即时到达个人账户</p>
+          <p>不经第三方平台</p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="picture/wd.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>稳定</h2>
+          <p>使用官方接口</p>
+          <p>100% 成功率</p>
+
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="picture/gw.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>适用</h2>
+          <p>商城、小程序</p>
+          <p>H5、APP</p>
+
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+      <div class="cpjs">
+        <h1>产品介绍</h1>
+        <h3>提供微信，支付宝支付产品</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3 style="margin-bottom: 46px;">微信、支付宝（源码）</h3>
+              <p class="biaoqian2">基础版</p>
+              <p>前端+后端（附送APP）</p>
+              <p>安装App辅助</p>
+              <p>不需要企业资质，不需网站认证</p>
+              <p>无需对接第三方平台，即时收款到个人账户</p>
+              <p>可接入任何语言开发的网站、商城、APP等</p>
+              <p>操作简单，一次配置，终身免费使用</p>
+              <p>无需任何手续费</p>
+              <a target="_blank" href="https://github.com/apppay/pay" class="xizngq">详情</a>
+<!--              <p class="jiage">￥99</p>-->
+              <p class="jiage">￥???</p>
+              <p id="cebut"><a onclick="alert('请联系客服，谢谢。')" href="JavaScript::;" class="btn btn-primary" role="button">购买</a></p>
+
+              <!--              <p id="cebut"><a target="_blank" href="http://apppay.xyz/pay3/" class="btn btn-primary" role="button">购买</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3 style="margin-bottom: 46px;">微信、支付宝（源码）</h3>
+              <p class="biaoqian2">标准版</p>
+              <p>前端+后端（附送APP）</p>
+              <p>安装App辅助</p>
+              <p style="font-weight: bold;">
+                 可配置多个账户轮训收款，支持高并发
+              </p>
+              <p>无需对接第三方平台，即时收款到个人账户</p>
+              <p>可接入任何语言开发的网站、商城、APP等</p>
+              <p>操作简单，一次配置，终身免费使用</p>
+              <p>无需任何手续费</p>
+              <a target="_blank" href="https://github.com/apppay/ManyUsers" class="xizngq">详情</a>
+<!--              <p class="jiage">￥399</p>-->
+              <p class="jiage">￥???</p>
+              <p id="cebut"><a onclick="alert('请联系客服，谢谢。')" href="JavaScript::;" class="btn btn-primary" role="button">购买</a></p>
+              <!--              <p id="cebut"><a target="_blank" href="http://apppay.xyz/pay_user/" class="btn btn-primary" role="button">购买</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3 style="margin-bottom: 46px;">支付宝（源码）</h3>
+              <p>前端+后端</p>
+              <p>无需任何辅助</p>
+              <p>官方接口，成功率100%</p>
+              <p>资金直接付款到您的个人支付宝账号</p>
+              <p>高并发，拥有成熟风控系统安全稳定无风险</p>
+              <p>单笔收款≤1000，当日收款≤5W</p>
+              <p>交易费率0.38%（支付宝官方收取）</p>
+<!--              <p class="jiage" style="color: white !important;">￥888</p>-->
+              <p class="jiage">￥???</p>
+              <p id="cebut"><a onclick="alert('请联系客服，谢谢。')" href="JavaScript::;" class="btn btn-primary" role="button">购买</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+<!--       <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="picture/ea547f53180440c68d75a7c65a8fc39e.gif" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE2YjU1Y2Y0OWRlIHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTZiNTVjZjQ5ZGUiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="picture/ea547f53180440c68d75a7c65a8fc39e.gif" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE2YjU1Y2Y1NDE5IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTZiNTVjZjU0MTkiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="picture/ea547f53180440c68d75a7c65a8fc39e.gif" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE2YjU1Y2Y0NWM3IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTZiNTVjZjQ1YzciPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+        </div>
+      </div> -->
+
+      <hr class="featurette-divider">
+
+
+      <!-- FOOTER -->
+      <footer>
+
+          <div class="row">
+            <div class="col-md-4">
+                联系我们
+                <p>Contact US</p>
+            </div>
+            <div class="col-md-4">
+                Email:3104605228@qq.com
+                <p>QQ：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3104605228&site=qq&menu=yes"><img border="0" src="picture/96eac340e3524c0bac2428d007c8898c.gif" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></p>
+            </div>
+            <div class="col-md-4">
+                联系请直接留言问题
+                <p>工作时间 09:00-22:00</p>
+            </div>
+          </div>
+
+          <p class="cop">
+             Copyright © 2019
+             <a style="color: #5a5a5a;" href="http://apppay.xyz">APPPAY</a>
+          </p>
+          <p style="font-size: 13px;">
+             免责声明：本站资源仅供观摩学习交流之用，请勿用于商业及非法用途，否则产生的一切后果将由您自己承担！在本站发生购买行为一律视为同意此声明。
+          </p>
+     </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript-->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+</body>
+</html>
